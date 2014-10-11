@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E83D6C3E635F12320FB29DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0A60BE5886673DC64D8112 /* libPods.a */; };
+		A2325DD519E94A0A008FB0A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2325DD419E94A0A008FB0A2 /* LoginViewController.m */; };
 		A28B1EC119E6B0160064DF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EC019E6B0160064DF45 /* main.m */; };
 		A28B1EC419E6B0160064DF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EC319E6B0160064DF45 /* AppDelegate.m */; };
 		A28B1EC719E6B0160064DF45 /* blimp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EC519E6B0160064DF45 /* blimp.xcdatamodeld */; };
 		A28B1ECA19E6B0160064DF45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EC919E6B0160064DF45 /* ViewController.m */; };
-		A28B1ECD19E6B0160064DF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28B1ECB19E6B0160064DF45 /* Main.storyboard */; };
 		A28B1ECF19E6B0160064DF45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28B1ECE19E6B0160064DF45 /* Images.xcassets */; };
 		A28B1ED219E6B0160064DF45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28B1ED019E6B0160064DF45 /* LaunchScreen.xib */; };
 		A28B1EDE19E6B0160064DF45 /* blimpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EDD19E6B0160064DF45 /* blimpTests.m */; };
+		A28B1EED19E716610064DF45 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B1EEC19E716610064DF45 /* DetailViewController.m */; };
+		A28D8BCC19E84627003847B6 /* cell_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A28D8BCB19E84627003847B6 /* cell_background.png */; };
+		A2D5B02319E7295F00F3003A /* Storyboard.main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D5B02219E7295F00F3003A /* Storyboard.main.storyboard */; };
+		A2F4476519E83D8300B2C4E0 /* UIImage+StackBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4476419E83D8300B2C4E0 /* UIImage+StackBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BA95F091328F480E5E8CCD5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		81B56D4CD754DACB04314140 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2325DD319E94A0A008FB0A2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A2325DD419E94A0A008FB0A2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		A28B1EBB19E6B0160064DF45 /* blimp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blimp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28B1EBF19E6B0160064DF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28B1EC019E6B0160064DF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,12 +45,18 @@
 		A28B1EC619E6B0160064DF45 /* blimp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = blimp.xcdatamodel; sourceTree = "<group>"; };
 		A28B1EC819E6B0160064DF45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A28B1EC919E6B0160064DF45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A28B1ECC19E6B0160064DF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28B1ECE19E6B0160064DF45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A28B1ED119E6B0160064DF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A28B1ED719E6B0160064DF45 /* blimpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blimpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28B1EDC19E6B0160064DF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28B1EDD19E6B0160064DF45 /* blimpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blimpTests.m; sourceTree = "<group>"; };
+		A28B1EEB19E716610064DF45 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A28B1EEC19E716610064DF45 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A28D8BCB19E84627003847B6 /* cell_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_background.png; sourceTree = "<group>"; };
+		A2D5B02219E7295F00F3003A /* Storyboard.main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.main.storyboard; sourceTree = "<group>"; };
+		A2F4476319E83D8300B2C4E0 /* UIImage+StackBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+StackBlur.h"; sourceTree = "<group>"; };
+		A2F4476419E83D8300B2C4E0 /* UIImage+StackBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+StackBlur.m"; sourceTree = "<group>"; };
+		FB0A60BE5886673DC64D8112 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E83D6C3E635F12320FB29DA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A04B1FCD86BD9BD1EB726AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A60BE5886673DC64D8112 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2325DD619E94A0F008FB0A2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A2325DD319E94A0A008FB0A2 /* LoginViewController.h */,
+				A2325DD419E94A0A008FB0A2 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		A28B1EB219E6B0160064DF45 = {
 			isa = PBXGroup;
 			children = (
 				A28B1EBD19E6B0160064DF45 /* blimp */,
 				A28B1EDA19E6B0160064DF45 /* blimpTests */,
 				A28B1EBC19E6B0160064DF45 /* Products */,
+				BED6C1481C01487665216D4D /* Pods */,
+				7A04B1FCD86BD9BD1EB726AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +120,10 @@
 			children = (
 				A28B1EC219E6B0160064DF45 /* AppDelegate.h */,
 				A28B1EC319E6B0160064DF45 /* AppDelegate.m */,
-				A28B1EC819E6B0160064DF45 /* ViewController.h */,
-				A28B1EC919E6B0160064DF45 /* ViewController.m */,
-				A28B1ECB19E6B0160064DF45 /* Main.storyboard */,
+				A2D5B02219E7295F00F3003A /* Storyboard.main.storyboard */,
+				A2325DD619E94A0F008FB0A2 /* Login */,
+				A28B1EE919E7160F0064DF45 /* Search Movie */,
+				A28B1EEA19E7163C0064DF45 /* Detail Movie */,
 				A28B1ECE19E6B0160064DF45 /* Images.xcassets */,
 				A28B1ED019E6B0160064DF45 /* LaunchScreen.xib */,
 				A28B1EC519E6B0160064DF45 /* blimp.xcdatamodeld */,
@@ -99,6 +135,8 @@
 		A28B1EBE19E6B0160064DF45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A28D8BCB19E84627003847B6 /* cell_background.png */,
+				A2F4473D19E83BC600B2C4E0 /* Blur Effect for Images */,
 				A28B1EBF19E6B0160064DF45 /* Info.plist */,
 				A28B1EC019E6B0160064DF45 /* main.m */,
 			);
@@ -122,6 +160,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A28B1EE919E7160F0064DF45 /* Search Movie */ = {
+			isa = PBXGroup;
+			children = (
+				A28B1EC819E6B0160064DF45 /* ViewController.h */,
+				A28B1EC919E6B0160064DF45 /* ViewController.m */,
+			);
+			name = "Search Movie";
+			sourceTree = "<group>";
+		};
+		A28B1EEA19E7163C0064DF45 /* Detail Movie */ = {
+			isa = PBXGroup;
+			children = (
+				A28B1EEB19E716610064DF45 /* DetailViewController.h */,
+				A28B1EEC19E716610064DF45 /* DetailViewController.m */,
+			);
+			name = "Detail Movie";
+			sourceTree = "<group>";
+		};
+		A2F4473D19E83BC600B2C4E0 /* Blur Effect for Images */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4476319E83D8300B2C4E0 /* UIImage+StackBlur.h */,
+				A2F4476419E83D8300B2C4E0 /* UIImage+StackBlur.m */,
+			);
+			name = "Blur Effect for Images";
+			sourceTree = "<group>";
+		};
+		BED6C1481C01487665216D4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA95F091328F480E5E8CCD5 /* Pods.debug.xcconfig */,
+				81B56D4CD754DACB04314140 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A28B1EE119E6B0160064DF45 /* Build configuration list for PBXNativeTarget "blimp" */;
 			buildPhases = (
+				7BC9CDCB1D8F282DDAFF2560 /* Check Pods Manifest.lock */,
 				A28B1EB719E6B0160064DF45 /* Sources */,
 				A28B1EB819E6B0160064DF45 /* Frameworks */,
 				A28B1EB919E6B0160064DF45 /* Resources */,
+				0843B6A31D532AD942B8CCFF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28B1ECD19E6B0160064DF45 /* Main.storyboard in Resources */,
+				A28D8BCC19E84627003847B6 /* cell_background.png in Resources */,
 				A28B1ED219E6B0160064DF45 /* LaunchScreen.xib in Resources */,
+				A2D5B02319E7295F00F3003A /* Storyboard.main.storyboard in Resources */,
 				A28B1ECF19E6B0160064DF45 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,13 +294,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0843B6A31D532AD942B8CCFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC9CDCB1D8F282DDAFF2560 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A28B1EB719E6B0160064DF45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28B1EED19E716610064DF45 /* DetailViewController.m in Sources */,
 				A28B1EC719E6B0160064DF45 /* blimp.xcdatamodeld in Sources */,
+				A2F4476519E83D8300B2C4E0 /* UIImage+StackBlur.m in Sources */,
 				A28B1EC419E6B0160064DF45 /* AppDelegate.m in Sources */,
+				A2325DD519E94A0A008FB0A2 /* LoginViewController.m in Sources */,
 				A28B1ECA19E6B0160064DF45 /* ViewController.m in Sources */,
 				A28B1EC119E6B0160064DF45 /* main.m in Sources */,
 			);
@@ -248,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A28B1ECB19E6B0160064DF45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A28B1ECC19E6B0160064DF45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A28B1ED019E6B0160064DF45 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +450,7 @@
 		};
 		A28B1EE219E6B0160064DF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA95F091328F480E5E8CCD5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blimp/Info.plist;
@@ -355,6 +461,7 @@
 		};
 		A28B1EE319E6B0160064DF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B56D4CD754DACB04314140 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blimp/Info.plist;
@@ -416,6 +523,7 @@
 				A28B1EE319E6B0160064DF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A28B1EE419E6B0160064DF45 /* Build configuration list for PBXNativeTarget "blimpTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +532,7 @@
 				A28B1EE619E6B0160064DF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
